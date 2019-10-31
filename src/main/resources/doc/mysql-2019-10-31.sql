@@ -22,6 +22,112 @@ CREATE DATABASE IF NOT EXISTS easysecurity;
 USE easysecurity;
 
 --
+-- Definition of table `export_history_record`
+--
+
+DROP TABLE IF EXISTS `export_history_record`;
+CREATE TABLE `export_history_record` (
+  `user_no` varchar(32) NOT NULL COMMENT '用户编号',
+  `company_id` bigint(20) NOT NULL COMMENT '公司id',
+  `create_time` datetime default NULL COMMENT '创建时间',
+  `query_condition_md5` varchar(64) default NULL COMMENT 'md5查询条件'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `export_history_record`
+--
+
+/*!40000 ALTER TABLE `export_history_record` DISABLE KEYS */;
+/*!40000 ALTER TABLE `export_history_record` ENABLE KEYS */;
+
+
+--
+-- Definition of table `gde_order`
+--
+
+DROP TABLE IF EXISTS `gde_order`;
+CREATE TABLE `gde_order` (
+  `id` int(20) NOT NULL COMMENT 'id',
+  `order_no` varchar(32) NOT NULL COMMENT '订单编号',
+  `user_no` varchar(32) NOT NULL COMMENT '用户编号',
+  `goods_no` varchar(32) NOT NULL COMMENT '商品编号',
+  `unit_price` int(10) default NULL COMMENT '单价',
+  `total_price` int(10) default NULL COMMENT '总价',
+  `buy_time` datetime default NULL COMMENT '购买时间',
+  `pay_platform` varchar(12) default NULL COMMENT '支付平台',
+  `pay_result` int(10) default '0' COMMENT '是否支付成功 0:未支付 1:成功 2:失败',
+  `pay_fee` int(10) default NULL COMMENT '支付金额 ,单位为分',
+  `pay_time` datetime default NULL COMMENT '支付时间',
+  `pay_no` bigint(20) default NULL COMMENT '支付结果编号,关联对应pay_result',
+  `pay_write_time` datetime default NULL COMMENT '支付结果写入时间',
+  `create_time` datetime default NULL COMMENT '创建时间',
+  `subject` varchar(256) default NULL COMMENT '主题',
+  `body` varchar(256) default NULL COMMENT '内容',
+  `goods_detail` varchar(500) default NULL COMMENT '详情明细',
+  PRIMARY KEY  USING BTREE (`order_no`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `gde_order`
+--
+
+/*!40000 ALTER TABLE `gde_order` DISABLE KEYS */;
+/*!40000 ALTER TABLE `gde_order` ENABLE KEYS */;
+
+
+--
+-- Definition of table `goods`
+--
+
+DROP TABLE IF EXISTS `goods`;
+CREATE TABLE `goods` (
+  `id` int(20) NOT NULL auto_increment COMMENT 'id',
+  `goods_no` varchar(32) NOT NULL COMMENT '商品编号',
+  `original_price` int(10) NOT NULL COMMENT '原价',
+  `discount_price` int(10) NOT NULL COMMENT '折扣价',
+  `vip_day` int(10) NOT NULL COMMENT '天数',
+  `title` varchar(32) default NULL COMMENT '标题',
+  `role_name` varchar(32) default NULL COMMENT '权限',
+  `create_time` datetime default NULL COMMENT '创建时间',
+  `publish_status` tinyint(1) default '0' COMMENT '是否发布',
+  `deleted` tinyint(1) default '0' COMMENT '是否删除',
+  `goods_name` varchar(32) default NULL COMMENT '商品名称',
+  PRIMARY KEY  USING BTREE (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `goods`
+--
+
+/*!40000 ALTER TABLE `goods` DISABLE KEYS */;
+/*!40000 ALTER TABLE `goods` ENABLE KEYS */;
+
+
+--
+-- Definition of table `pay_platform_param`
+--
+
+DROP TABLE IF EXISTS `pay_platform_param`;
+CREATE TABLE `pay_platform_param` (
+  `pay_platform_short` varchar(32) NOT NULL COMMENT '支付平台简称',
+  `realm_name` varchar(512) NOT NULL COMMENT '域名',
+  `suffix` varchar(512) default NULL COMMENT '后缀',
+  `application_name` varchar(128) NOT NULL COMMENT '对应yml中spring.application.name',
+  `notify_url` varchar(512) NOT NULL COMMENT '支付回调地址',
+  PRIMARY KEY  USING BTREE (`pay_platform_short`,`application_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `pay_platform_param`
+--
+
+/*!40000 ALTER TABLE `pay_platform_param` DISABLE KEYS */;
+INSERT INTO `pay_platform_param` (`pay_platform_short`,`realm_name`,`suffix`,`application_name`,`notify_url`) VALUES 
+ ('ALI','hjy.gde.ink',NULL,'mobile','http://39.97.169.104:8011/mobile/mobilePay/ali/payCallback');
+/*!40000 ALTER TABLE `pay_platform_param` ENABLE KEYS */;
+
+
+--
 -- Definition of table `resource`
 --
 
@@ -93,7 +199,7 @@ CREATE TABLE `role` (
   `template_name` varchar(100) NOT NULL COMMENT '模板名称',
   PRIMARY KEY  (`role_name`),
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 --
 -- Dumping data for table `role`
@@ -480,7 +586,8 @@ INSERT INTO `user_role` (`id`,`user_no`,`role_name`,`from_time`,`to_time`,`creat
  (6,'GDE2019092818518514053','VIP权限001','2019-09-28 22:22:12','2019-09-29 22:22:12','2019-09-28 22:22:12',0,1,'[\"GEC20190928222204LYU8A4Y25S\"]',NULL),
  (7,'GDE2019092817308080208','VIP权限001','2019-10-01 15:13:39','2019-10-01 22:25:12','2019-09-28 22:25:12',0,2,'[\"GEC20190928222500JOKMF43W6J\", \"1000000573619590\"]',NULL),
  (8,'GDE2019092813520393024','VIP权限001','2019-09-28 22:40:43','2019-09-29 22:40:43','2019-09-28 22:40:43',0,1,'[\"1000000573619620\"]',NULL),
- (9,'GDE2019092815928985296','VIP权限001','2019-09-28 22:42:31','2019-09-29 22:42:31','2019-09-28 22:42:31',0,1,'[\"GEC20190928224203HKVRFHGWXF\"]',NULL);
+ (9,'GDE2019092815928985296','VIP权限001','2019-09-28 22:42:31','2019-09-29 22:42:31','2019-09-28 22:42:31',0,1,'[\"GEC20190928224203HKVRFHGWXF\"]',NULL),
+ (67,'GDE2019102813551259347','VIP权限001','2019-10-28 15:42:42','2020-10-27 15:42:42','2019-10-28 15:42:42',1,0,'1',NULL);
 /*!40000 ALTER TABLE `user_role` ENABLE KEYS */;
 
 

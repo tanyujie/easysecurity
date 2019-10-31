@@ -1,0 +1,2858 @@
+[
+  {
+    "cateCode": "",
+    "cateName": "农、林、牧、渔业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "农业",
+        "categoryList": [
+          {
+            "cateCode": "011",
+            "cateName": "谷物种植",
+            "categoryList": []
+          },
+          {
+            "cateCode": "012",
+            "cateName": "豆类、油料和薯类种植",
+            "categoryList": []
+          },
+          {
+            "cateCode": "013",
+            "cateName": "棉、麻、糖、烟草种植",
+            "categoryList": []
+          },
+          {
+            "cateCode": "014",
+            "cateName": "蔬菜、食用菌及园艺作物种植",
+            "categoryList": []
+          },
+          {
+            "cateCode": "015",
+            "cateName": "水果种植",
+            "categoryList": []
+          },
+          {
+            "cateCode": "016",
+            "cateName": "坚果、含油果、香料和饮料作物种植",
+            "categoryList": []
+          },
+          {
+            "cateCode": "017",
+            "cateName": "中药材种植",
+            "categoryList": []
+          },
+          {
+            "cateCode": "019",
+            "cateName": "其他农业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "林业",
+        "categoryList": [
+          {
+            "cateCode": "021",
+            "cateName": "林木育种和育苗",
+            "categoryList": []
+          },
+          {
+            "cateCode": "022",
+            "cateName": "造林和更新",
+            "categoryList": []
+          },
+          {
+            "cateCode": "023",
+            "cateName": "森林经营和管护",
+            "categoryList": []
+          },
+          {
+            "cateCode": "024",
+            "cateName": "木材和竹材采运",
+            "categoryList": []
+          },
+          {
+            "cateCode": "025",
+            "cateName": "林产品采集",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "畜牧业",
+        "categoryList": [
+          {
+            "cateCode": "031",
+            "cateName": "牲畜饲养",
+            "categoryList": []
+          },
+          {
+            "cateCode": "032",
+            "cateName": "家禽饲养",
+            "categoryList": []
+          },
+          {
+            "cateCode": "033",
+            "cateName": "狩猎和捕捉动物",
+            "categoryList": []
+          },
+          {
+            "cateCode": "039",
+            "cateName": "其他畜牧业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "渔业",
+        "categoryList": [
+          {
+            "cateCode": "041",
+            "cateName": "水产养殖",
+            "categoryList": []
+          },
+          {
+            "cateCode": "042",
+            "cateName": "水产捕捞",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "农、林、牧、渔服务业",
+        "categoryList": [
+          {
+            "cateCode": "051",
+            "cateName": "农业服务业",
+            "categoryList": []
+          },
+          {
+            "cateCode": "052",
+            "cateName": "林业服务业",
+            "categoryList": []
+          },
+          {
+            "cateCode": "053",
+            "cateName": "畜牧服务业",
+            "categoryList": []
+          },
+          {
+            "cateCode": "054",
+            "cateName": "渔业服务业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "采矿业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "煤炭开采和洗选业",
+        "categoryList": [
+          {
+            "cateCode": "061",
+            "cateName": "烟煤和无烟煤开采洗选",
+            "categoryList": []
+          },
+          {
+            "cateCode": "062",
+            "cateName": "褐煤开采洗选",
+            "categoryList": []
+          },
+          {
+            "cateCode": "069",
+            "cateName": "其他煤炭采选",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "石油和天然气开采业",
+        "categoryList": [
+          {
+            "cateCode": "071",
+            "cateName": "石油开采",
+            "categoryList": []
+          },
+          {
+            "cateCode": "072",
+            "cateName": "天然气开采",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "黑色金属矿采选业",
+        "categoryList": [
+          {
+            "cateCode": "081",
+            "cateName": "铁矿采选",
+            "categoryList": []
+          },
+          {
+            "cateCode": "082",
+            "cateName": "锰矿、铬矿采选",
+            "categoryList": []
+          },
+          {
+            "cateCode": "089",
+            "cateName": "其他黑色金属矿采选",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "有色金属矿采选业",
+        "categoryList": [
+          {
+            "cateCode": "091",
+            "cateName": "常用有色金属矿采选",
+            "categoryList": []
+          },
+          {
+            "cateCode": "092",
+            "cateName": "贵金属矿采选",
+            "categoryList": []
+          },
+          {
+            "cateCode": "093",
+            "cateName": "稀有稀土金属矿采选",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "非金属矿采选业",
+        "categoryList": [
+          {
+            "cateCode": "101",
+            "cateName": "土砂石开采",
+            "categoryList": []
+          },
+          {
+            "cateCode": "102",
+            "cateName": "化学矿开采",
+            "categoryList": []
+          },
+          {
+            "cateCode": "103",
+            "cateName": "采盐",
+            "categoryList": []
+          },
+          {
+            "cateCode": "109",
+            "cateName": "石棉及其他非金属矿采选",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "开采辅助活动",
+        "categoryList": [
+          {
+            "cateCode": "111",
+            "cateName": "煤炭开采和洗选辅助活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "112",
+            "cateName": "石油和天然气开采辅助活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "119",
+            "cateName": "其他开采辅助活动",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "其他采矿业",
+        "categoryList": [
+          {
+            "cateCode": "120",
+            "cateName": "其他采矿业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "制造业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "农副食品加工业",
+        "categoryList": [
+          {
+            "cateCode": "131",
+            "cateName": "谷物磨制",
+            "categoryList": []
+          },
+          {
+            "cateCode": "132",
+            "cateName": "饲料加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "133",
+            "cateName": "植物油加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "134",
+            "cateName": "制糖业",
+            "categoryList": []
+          },
+          {
+            "cateCode": "135",
+            "cateName": "屠宰及肉类加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "136",
+            "cateName": "水产品加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "137",
+            "cateName": "蔬菜、水果和坚果加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "139",
+            "cateName": "其他农副食品加工",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "食品制造业",
+        "categoryList": [
+          {
+            "cateCode": "141",
+            "cateName": "焙烤食品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "142",
+            "cateName": "糖果、巧克力及蜜饯制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "143",
+            "cateName": "方便食品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "144",
+            "cateName": "乳制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "145",
+            "cateName": "罐头食品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "146",
+            "cateName": "调味品、发酵制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "149",
+            "cateName": "其他食品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "酒、饮料和精制茶制造业",
+        "categoryList": [
+          {
+            "cateCode": "151",
+            "cateName": "酒的制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "152",
+            "cateName": "饮料制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "153",
+            "cateName": "精制茶加工",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "烟草制品业",
+        "categoryList": [
+          {
+            "cateCode": "161",
+            "cateName": "烟叶复烤",
+            "categoryList": []
+          },
+          {
+            "cateCode": "162",
+            "cateName": "卷烟制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "169",
+            "cateName": "其他烟草制品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "纺织业",
+        "categoryList": [
+          {
+            "cateCode": "171",
+            "cateName": "棉纺织及印染精加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "172",
+            "cateName": "毛纺织及染整精加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "173",
+            "cateName": "麻纺织及染整精加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "174",
+            "cateName": "丝绢纺织及印染精加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "175",
+            "cateName": "化纤织造及印染精加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "176",
+            "cateName": "针织或钩针编织物及其制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "177",
+            "cateName": "家用纺织制成品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "178",
+            "cateName": "非家用纺织制成品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "纺织服装、服饰业",
+        "categoryList": [
+          {
+            "cateCode": "181",
+            "cateName": "机织服装制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "182",
+            "cateName": "针织或钩针编织服装制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "183",
+            "cateName": "服饰制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "皮革、毛皮、羽毛及其制品和制鞋业",
+        "categoryList": [
+          {
+            "cateCode": "191",
+            "cateName": "皮革鞣制加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "192",
+            "cateName": "皮革制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "193",
+            "cateName": "毛皮鞣制及制品加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "194",
+            "cateName": "羽毛(绒)加工及制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "195",
+            "cateName": "制鞋业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "木材加工和木、竹、藤、棕、草制品业",
+        "categoryList": [
+          {
+            "cateCode": "201",
+            "cateName": "木材加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "202",
+            "cateName": "人造板制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "203",
+            "cateName": "木制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "204",
+            "cateName": "竹、藤、棕、草等制品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "家具制造业",
+        "categoryList": [
+          {
+            "cateCode": "211",
+            "cateName": "木质家具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "212",
+            "cateName": "竹、藤家具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "213",
+            "cateName": "金属家具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "214",
+            "cateName": "塑料家具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "219",
+            "cateName": "其他家具制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "造纸和纸制品业",
+        "categoryList": [
+          {
+            "cateCode": "221",
+            "cateName": "纸浆制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "222",
+            "cateName": "造纸",
+            "categoryList": []
+          },
+          {
+            "cateCode": "223",
+            "cateName": "纸制品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "印刷和记录媒介复制业",
+        "categoryList": [
+          {
+            "cateCode": "231",
+            "cateName": "印刷",
+            "categoryList": []
+          },
+          {
+            "cateCode": "232",
+            "cateName": "装订及印刷相关服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "233",
+            "cateName": "记录媒介复制",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "文教、工美、体育和娱乐用品制造业",
+        "categoryList": [
+          {
+            "cateCode": "241",
+            "cateName": "文教办公用品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "242",
+            "cateName": "乐器制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "243",
+            "cateName": "工艺美术品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "244",
+            "cateName": "体育用品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "245",
+            "cateName": "玩具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "246",
+            "cateName": "游艺器材及娱乐用品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "石油加工、炼焦和核燃料加工业",
+        "categoryList": [
+          {
+            "cateCode": "251",
+            "cateName": "精炼石油产品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "252",
+            "cateName": "炼焦",
+            "categoryList": []
+          },
+          {
+            "cateCode": "253",
+            "cateName": "核燃料加工",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "化学原料和化学制品制造业",
+        "categoryList": [
+          {
+            "cateCode": "261",
+            "cateName": "基础化学原料制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "262",
+            "cateName": "肥料制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "263",
+            "cateName": "农药制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "264",
+            "cateName": "涂料、油墨、颜料及类似产品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "265",
+            "cateName": "合成材料制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "266",
+            "cateName": "专用化学产品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "267",
+            "cateName": "炸药、火工及焰火产品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "268",
+            "cateName": "日用化学产品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "医药制造业",
+        "categoryList": [
+          {
+            "cateCode": "271",
+            "cateName": "化学药品原料药制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "272",
+            "cateName": "化学药品制剂制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "273",
+            "cateName": "中药饮片加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "274",
+            "cateName": "中成药生产",
+            "categoryList": []
+          },
+          {
+            "cateCode": "275",
+            "cateName": "兽用药品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "276",
+            "cateName": "生物药品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "277",
+            "cateName": "卫生材料及医药用品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "化学纤维制造业",
+        "categoryList": [
+          {
+            "cateCode": "281",
+            "cateName": "纤维素纤维原料及纤维制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "282",
+            "cateName": "合成纤维制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "橡胶和塑料制品业",
+        "categoryList": [
+          {
+            "cateCode": "291",
+            "cateName": "橡胶制品业",
+            "categoryList": []
+          },
+          {
+            "cateCode": "292",
+            "cateName": "塑料制品业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "非金属矿物制品业",
+        "categoryList": [
+          {
+            "cateCode": "301",
+            "cateName": "水泥、石灰和石膏制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "302",
+            "cateName": "石膏、水泥制品及类似制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "303",
+            "cateName": "砖瓦、石材等建筑材料制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "304",
+            "cateName": "玻璃制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "305",
+            "cateName": "玻璃制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "306",
+            "cateName": "玻璃纤维和玻璃纤维增强塑料制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "307",
+            "cateName": "陶瓷制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "308",
+            "cateName": "耐火材料制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "309",
+            "cateName": "石墨及其他非金属矿物制品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "黑色金属冶炼和压延加工业",
+        "categoryList": [
+          {
+            "cateCode": "311",
+            "cateName": "炼铁",
+            "categoryList": []
+          },
+          {
+            "cateCode": "312",
+            "cateName": "炼钢",
+            "categoryList": []
+          },
+          {
+            "cateCode": "313",
+            "cateName": "黑色金属铸造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "314",
+            "cateName": "钢压延加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "315",
+            "cateName": "铁合金冶炼",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "有色金属冶炼和压延加工业",
+        "categoryList": [
+          {
+            "cateCode": "321",
+            "cateName": "常用有色金属冶炼",
+            "categoryList": []
+          },
+          {
+            "cateCode": "322",
+            "cateName": "贵金属冶炼",
+            "categoryList": []
+          },
+          {
+            "cateCode": "323",
+            "cateName": "稀有稀土金属冶炼",
+            "categoryList": []
+          },
+          {
+            "cateCode": "324",
+            "cateName": "有色金属合金制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "325",
+            "cateName": "有色金属铸造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "326",
+            "cateName": "有色金属压延加工",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "金属制品业",
+        "categoryList": [
+          {
+            "cateCode": "331",
+            "cateName": "结构性金属制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "332",
+            "cateName": "金属工具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "333",
+            "cateName": "集装箱及金属包装容器制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "334",
+            "cateName": "金属丝绳及其制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "335",
+            "cateName": "建筑、安全用金属制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "336",
+            "cateName": "金属表面处理及热处理加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "337",
+            "cateName": "搪瓷制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "338",
+            "cateName": "金属制日用品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "339",
+            "cateName": "其他金属制品制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "通用设备制造业",
+        "categoryList": [
+          {
+            "cateCode": "341",
+            "cateName": "锅炉及原动设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "342",
+            "cateName": "金属加工机械制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "343",
+            "cateName": "物料搬运设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "344",
+            "cateName": "泵、阀门、压缩机及类似机械制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "345",
+            "cateName": "轴承、齿轮和传动部件制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "346",
+            "cateName": "烘炉、风机、衡器、包装等设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "347",
+            "cateName": "文化、办公用机械制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "348",
+            "cateName": "通用零部件制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "349",
+            "cateName": "其他通用设备制造业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "专用设备制造业",
+        "categoryList": [
+          {
+            "cateCode": "351",
+            "cateName": "采矿、冶金、建筑专用设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "352",
+            "cateName": "化工、木材、非金属加工专用设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "353",
+            "cateName": "食品、饮料、烟草及饲料生产专用设备制造　　　",
+            "categoryList": []
+          },
+          {
+            "cateCode": "354",
+            "cateName": "印刷、制药、日化及日用品生产专用设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "355",
+            "cateName": "纺织、服装和皮革加工专用设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "356",
+            "cateName": "电子和电工机械专用设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "357",
+            "cateName": "农、林、牧、渔专用机械制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "358",
+            "cateName": "医疗仪器设备及器械制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "359",
+            "cateName": "环保、社会公共服务及其他专用设备制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "汽车制造业",
+        "categoryList": [
+          {
+            "cateCode": "361",
+            "cateName": "汽车整车制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "362",
+            "cateName": "改装汽车制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "363",
+            "cateName": "低速载货汽车制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "364",
+            "cateName": "电车制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "365",
+            "cateName": "汽车车身、挂车制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "366",
+            "cateName": "汽车零部件及配件制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "铁路、船舶、航空航天和其他运输设备制造业",
+        "categoryList": [
+          {
+            "cateCode": "371",
+            "cateName": "铁路运输设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "372",
+            "cateName": "城市轨道交通设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "373",
+            "cateName": "船舶及相关装置制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "374",
+            "cateName": "航空、航天器及设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "375",
+            "cateName": "摩托车制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "376",
+            "cateName": "自行车制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "377",
+            "cateName": "非公路休闲车及零配件制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "379",
+            "cateName": "潜水救捞及其他未列明运输设备制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "电气机械和器材制造业",
+        "categoryList": [
+          {
+            "cateCode": "381",
+            "cateName": "电机制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "382",
+            "cateName": "输配电及控制设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "383",
+            "cateName": "电线、电缆、光缆及电工器材制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "384",
+            "cateName": "电池制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "385",
+            "cateName": "家用电力器具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "386",
+            "cateName": "非电力家用器具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "387",
+            "cateName": "照明器具制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "389",
+            "cateName": "其他电气机械及器材制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "计算机、通信和其他电子设备制造业",
+        "categoryList": [
+          {
+            "cateCode": "391",
+            "cateName": "计算机制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "392",
+            "cateName": "通信设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "393",
+            "cateName": "广播电视设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "394",
+            "cateName": "雷达及配套设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "395",
+            "cateName": "视听设备制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "396",
+            "cateName": "电子器件制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "397",
+            "cateName": "电子元件制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "399",
+            "cateName": "其他电子设备制造",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "仪器仪表制造业",
+        "categoryList": [
+          {
+            "cateCode": "401",
+            "cateName": "通用仪器仪表制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "402",
+            "cateName": "专用仪器仪表制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "403",
+            "cateName": "钟表与计时仪器制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "404",
+            "cateName": "光学仪器及眼镜制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "409",
+            "cateName": "其他仪器仪表制造业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "其他制造业",
+        "categoryList": [
+          {
+            "cateCode": "411",
+            "cateName": "日用杂品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "412",
+            "cateName": "煤制品制造",
+            "categoryList": []
+          },
+          {
+            "cateCode": "413",
+            "cateName": "核辐射加工",
+            "categoryList": []
+          },
+          {
+            "cateCode": "419",
+            "cateName": "其他未列明制造业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "废弃资源综合利用业",
+        "categoryList": [
+          {
+            "cateCode": "421",
+            "cateName": "金属废料和碎屑加工处理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "422",
+            "cateName": "非金属废料和碎屑加工处理",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "金属制品、机械和设备修理业",
+        "categoryList": [
+          {
+            "cateCode": "431",
+            "cateName": "金属制品修理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "432",
+            "cateName": "通用设备修理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "433",
+            "cateName": "专用设备修理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "434",
+            "cateName": "铁路、船舶、航空航天等运输设备修理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "435",
+            "cateName": "电气设备修理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "436",
+            "cateName": "仪器仪表修理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "439",
+            "cateName": "其他机械和设备修理业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "电力、热力、燃气及水生产和供应业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "电力、热力生产和供应业",
+        "categoryList": [
+          {
+            "cateCode": "441",
+            "cateName": "电力生产",
+            "categoryList": []
+          },
+          {
+            "cateCode": "442",
+            "cateName": "电力供应",
+            "categoryList": []
+          },
+          {
+            "cateCode": "443",
+            "cateName": "热力生产和供应",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "燃气生产和供应业",
+        "categoryList": [
+          {
+            "cateCode": "450",
+            "cateName": "燃气生产和供应业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "水的生产和供应业",
+        "categoryList": [
+          {
+            "cateCode": "461",
+            "cateName": "自来水生产和供应",
+            "categoryList": []
+          },
+          {
+            "cateCode": "462",
+            "cateName": "污水处理及其再生利用",
+            "categoryList": []
+          },
+          {
+            "cateCode": "469",
+            "cateName": "其他水的处理、利用与分配",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "建筑业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "房屋建筑业",
+        "categoryList": [
+          {
+            "cateCode": "470",
+            "cateName": "房屋建筑业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "土木工程建筑业",
+        "categoryList": [
+          {
+            "cateCode": "481",
+            "cateName": "铁路、道路、隧道和桥梁工程建筑",
+            "categoryList": []
+          },
+          {
+            "cateCode": "482",
+            "cateName": "水利和内河港口工程建筑",
+            "categoryList": []
+          },
+          {
+            "cateCode": "483",
+            "cateName": "海洋工程建筑",
+            "categoryList": []
+          },
+          {
+            "cateCode": "484",
+            "cateName": "工矿工程建筑",
+            "categoryList": []
+          },
+          {
+            "cateCode": "485",
+            "cateName": "架线和管道工程建筑",
+            "categoryList": []
+          },
+          {
+            "cateCode": "489",
+            "cateName": "其他土木工程建筑",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "建筑安装业",
+        "categoryList": [
+          {
+            "cateCode": "491",
+            "cateName": "电气安装",
+            "categoryList": []
+          },
+          {
+            "cateCode": "492",
+            "cateName": "管道和设备安装",
+            "categoryList": []
+          },
+          {
+            "cateCode": "499",
+            "cateName": "其他建筑安装业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "建筑装饰和其他建筑业",
+        "categoryList": [
+          {
+            "cateCode": "501",
+            "cateName": "建筑装饰业",
+            "categoryList": []
+          },
+          {
+            "cateCode": "502",
+            "cateName": "工程准备活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "503",
+            "cateName": "提供施工设备服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "509",
+            "cateName": "其他未列明建筑业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "批发和零售业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "批发业",
+        "categoryList": [
+          {
+            "cateCode": "511",
+            "cateName": "农、林、牧产品批发",
+            "categoryList": []
+          },
+          {
+            "cateCode": "512",
+            "cateName": "食品、饮料及烟草制品批发",
+            "categoryList": []
+          },
+          {
+            "cateCode": "513",
+            "cateName": "纺织、服装及家庭用品批发",
+            "categoryList": []
+          },
+          {
+            "cateCode": "514",
+            "cateName": "文化、体育用品及器材批发",
+            "categoryList": []
+          },
+          {
+            "cateCode": "515",
+            "cateName": "医药及医疗器材批发",
+            "categoryList": []
+          },
+          {
+            "cateCode": "516",
+            "cateName": "矿产品、建材及化工产品批发",
+            "categoryList": []
+          },
+          {
+            "cateCode": "517",
+            "cateName": "机械设备、五金产品及电子产品批发",
+            "categoryList": []
+          },
+          {
+            "cateCode": "518",
+            "cateName": "贸易经纪与代理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "519",
+            "cateName": "其他批发业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "零售业",
+        "categoryList": [
+          {
+            "cateCode": "521",
+            "cateName": "综合零售",
+            "categoryList": []
+          },
+          {
+            "cateCode": "522",
+            "cateName": "食品、饮料及烟草制品专门零售",
+            "categoryList": []
+          },
+          {
+            "cateCode": "523",
+            "cateName": "纺织、服装及日用品专门零售",
+            "categoryList": []
+          },
+          {
+            "cateCode": "524",
+            "cateName": "文化、体育用品及器材专门零售",
+            "categoryList": []
+          },
+          {
+            "cateCode": "525",
+            "cateName": "医药及医疗器材专门零售",
+            "categoryList": []
+          },
+          {
+            "cateCode": "526",
+            "cateName": "汽车、摩托车、燃料及零配件专门零售",
+            "categoryList": []
+          },
+          {
+            "cateCode": "527",
+            "cateName": "家用电器及电子产品专门零售",
+            "categoryList": []
+          },
+          {
+            "cateCode": "528",
+            "cateName": "五金、家具及室内装饰材料专门零售",
+            "categoryList": []
+          },
+          {
+            "cateCode": "529",
+            "cateName": "货摊、无店铺及其他零售业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "交通运输、仓储和邮政业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "铁路运输业",
+        "categoryList": [
+          {
+            "cateCode": "531",
+            "cateName": "铁路旅客运输",
+            "categoryList": []
+          },
+          {
+            "cateCode": "532",
+            "cateName": "铁路货物运输",
+            "categoryList": []
+          },
+          {
+            "cateCode": "533",
+            "cateName": "铁路运输辅助活动",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "道路运输业",
+        "categoryList": [
+          {
+            "cateCode": "541",
+            "cateName": "城市公共交通运输",
+            "categoryList": []
+          },
+          {
+            "cateCode": "542",
+            "cateName": "公路旅客运输",
+            "categoryList": []
+          },
+          {
+            "cateCode": "543",
+            "cateName": "道路货物运输",
+            "categoryList": []
+          },
+          {
+            "cateCode": "544",
+            "cateName": "道路运输辅助活动",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "水上运输业",
+        "categoryList": [
+          {
+            "cateCode": "551",
+            "cateName": "水上旅客运输",
+            "categoryList": []
+          },
+          {
+            "cateCode": "552",
+            "cateName": "水上货物运输",
+            "categoryList": []
+          },
+          {
+            "cateCode": "553",
+            "cateName": "水上运输辅助活动",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "航空运输业",
+        "categoryList": [
+          {
+            "cateCode": "561",
+            "cateName": "航空客货运输",
+            "categoryList": []
+          },
+          {
+            "cateCode": "562",
+            "cateName": "通用航空服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "563",
+            "cateName": "航空运输辅助活动",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "管道运输业",
+        "categoryList": [
+          {
+            "cateCode": "570",
+            "cateName": "管道运输业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "装卸搬运和运输代理业",
+        "categoryList": [
+          {
+            "cateCode": "581",
+            "cateName": "装卸搬运",
+            "categoryList": []
+          },
+          {
+            "cateCode": "582",
+            "cateName": "运输代理业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "仓储业",
+        "categoryList": [
+          {
+            "cateCode": "591",
+            "cateName": "谷物、棉花等农产品仓储",
+            "categoryList": []
+          },
+          {
+            "cateCode": "599",
+            "cateName": "其他仓储业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "邮政业",
+        "categoryList": [
+          {
+            "cateCode": "601",
+            "cateName": "邮政基本服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "602",
+            "cateName": "快递服务",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "住宿和餐饮业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "住宿业",
+        "categoryList": [
+          {
+            "cateCode": "611",
+            "cateName": "旅游饭店",
+            "categoryList": []
+          },
+          {
+            "cateCode": "612",
+            "cateName": "一般旅馆",
+            "categoryList": []
+          },
+          {
+            "cateCode": "619",
+            "cateName": "其他住宿业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "餐饮业",
+        "categoryList": [
+          {
+            "cateCode": "621",
+            "cateName": "正餐服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "622",
+            "cateName": "快餐服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "623",
+            "cateName": "饮料及冷饮服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "629",
+            "cateName": "其他餐饮业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "信息传输、软件和信息技术服务业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "电信、广播电视和卫星传输服务",
+        "categoryList": [
+          {
+            "cateCode": "631",
+            "cateName": "电信",
+            "categoryList": []
+          },
+          {
+            "cateCode": "632",
+            "cateName": "广播电视传输服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "633",
+            "cateName": "卫星传输服务",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "互联网和相关服务",
+        "categoryList": [
+          {
+            "cateCode": "641",
+            "cateName": "互联网接入及相关服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "642",
+            "cateName": "互联网信息服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "649",
+            "cateName": "其他互联网服务",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "软件和信息技术服务业",
+        "categoryList": [
+          {
+            "cateCode": "651",
+            "cateName": "软件开发",
+            "categoryList": []
+          },
+          {
+            "cateCode": "652",
+            "cateName": "信息系统集成服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "653",
+            "cateName": "信息技术咨询服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "654",
+            "cateName": "数据处理和存储服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "655",
+            "cateName": "集成电路设计",
+            "categoryList": []
+          },
+          {
+            "cateCode": "659",
+            "cateName": "其他信息技术服务业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "金融业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "货币金融服务",
+        "categoryList": [
+          {
+            "cateCode": "661",
+            "cateName": "中央银行服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "662",
+            "cateName": "货币银行服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "663",
+            "cateName": "非货币银行服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "664",
+            "cateName": "银行监管服务",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "资本市场服务",
+        "categoryList": [
+          {
+            "cateCode": "671",
+            "cateName": "证券市场服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "672",
+            "cateName": "期货市场服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "673",
+            "cateName": "证券期货监管服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "674",
+            "cateName": "资本投资服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "679",
+            "cateName": "其他资本市场服务",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "保险业",
+        "categoryList": [
+          {
+            "cateCode": "681",
+            "cateName": "人身保险",
+            "categoryList": []
+          },
+          {
+            "cateCode": "682",
+            "cateName": "财产保险",
+            "categoryList": []
+          },
+          {
+            "cateCode": "683",
+            "cateName": "再保险",
+            "categoryList": []
+          },
+          {
+            "cateCode": "684",
+            "cateName": "养老金",
+            "categoryList": []
+          },
+          {
+            "cateCode": "685",
+            "cateName": "保险经纪与代理服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "686",
+            "cateName": "保险监管服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "689",
+            "cateName": "其他保险活动",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "其他金融业",
+        "categoryList": [
+          {
+            "cateCode": "691",
+            "cateName": "金融信托与管理服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "692",
+            "cateName": "控股公司服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "693",
+            "cateName": "非金融机构支付服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "694",
+            "cateName": "金融信息服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "699",
+            "cateName": "其他未列明金融业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "房地产业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "房地产业",
+        "categoryList": [
+          {
+            "cateCode": "701",
+            "cateName": "房地产开发经营",
+            "categoryList": []
+          },
+          {
+            "cateCode": "702",
+            "cateName": "物业管理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "703",
+            "cateName": "房地产中介服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "704",
+            "cateName": "自有房地产经营活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "709",
+            "cateName": "其他房地产业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "租赁和商务服务业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "租赁业",
+        "categoryList": [
+          {
+            "cateCode": "711",
+            "cateName": "机械设备租赁",
+            "categoryList": []
+          },
+          {
+            "cateCode": "712",
+            "cateName": "文化及日用品出租",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "商务服务业",
+        "categoryList": [
+          {
+            "cateCode": "721",
+            "cateName": "企业管理服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "722",
+            "cateName": "法律服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "723",
+            "cateName": "咨询与调查",
+            "categoryList": []
+          },
+          {
+            "cateCode": "724",
+            "cateName": "广告业",
+            "categoryList": []
+          },
+          {
+            "cateCode": "725",
+            "cateName": "知识产权服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "726",
+            "cateName": "人力资源服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "727",
+            "cateName": "旅行社及相关服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "728",
+            "cateName": "安全保护服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "729",
+            "cateName": "其他商务服务业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "科学研究和技术服务业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "研究和试验发展",
+        "categoryList": [
+          {
+            "cateCode": "731",
+            "cateName": "自然科学研究和试验发展",
+            "categoryList": []
+          },
+          {
+            "cateCode": "732",
+            "cateName": "工程和技术研究和试验发展",
+            "categoryList": []
+          },
+          {
+            "cateCode": "733",
+            "cateName": "农业科学研究和试验发展",
+            "categoryList": []
+          },
+          {
+            "cateCode": "734",
+            "cateName": "医学研究和试验发展",
+            "categoryList": []
+          },
+          {
+            "cateCode": "735",
+            "cateName": "社会人文科学研究",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "专业技术服务业",
+        "categoryList": [
+          {
+            "cateCode": "741",
+            "cateName": "气象服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "742",
+            "cateName": "地震服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "743",
+            "cateName": "海洋服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "744",
+            "cateName": "测绘服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "745",
+            "cateName": "质检技术服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "746",
+            "cateName": "环境与生态监测",
+            "categoryList": []
+          },
+          {
+            "cateCode": "747",
+            "cateName": "地质勘查",
+            "categoryList": []
+          },
+          {
+            "cateCode": "748",
+            "cateName": "工程技术",
+            "categoryList": []
+          },
+          {
+            "cateCode": "749",
+            "cateName": "其他专业技术服务业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "科技推广和应用服务业",
+        "categoryList": [
+          {
+            "cateCode": "751",
+            "cateName": "技术推广服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "752",
+            "cateName": "科技中介服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "759",
+            "cateName": "其他科技推广和应用服务业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "水利、环境和公共设施管理业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "水利管理业",
+        "categoryList": [
+          {
+            "cateCode": "761",
+            "cateName": "防洪除涝设施管理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "762",
+            "cateName": "水资源管理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "763",
+            "cateName": "天然水收集与分配",
+            "categoryList": []
+          },
+          {
+            "cateCode": "764",
+            "cateName": "水文服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "769",
+            "cateName": "其他水利管理业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "生态保护和环境治理业",
+        "categoryList": [
+          {
+            "cateCode": "771",
+            "cateName": "生态保护",
+            "categoryList": []
+          },
+          {
+            "cateCode": "772",
+            "cateName": "环境治理业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "公共设施管理业",
+        "categoryList": [
+          {
+            "cateCode": "781",
+            "cateName": "市政设施管理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "782",
+            "cateName": "环境卫生管理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "783",
+            "cateName": "城乡市容管理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "784",
+            "cateName": "绿化管理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "785",
+            "cateName": "公园和游览景区管理",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "居民服务、修理和其他服务业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "居民服务业",
+        "categoryList": [
+          {
+            "cateCode": "791",
+            "cateName": "家庭服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "792",
+            "cateName": "托儿所服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "793",
+            "cateName": "洗染服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "794",
+            "cateName": "理发及美容服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "795",
+            "cateName": "洗浴服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "796",
+            "cateName": "保健服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "797",
+            "cateName": "婚姻服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "798",
+            "cateName": "殡葬服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "799",
+            "cateName": "其他居民服务业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "机动车、电子产品和日用产品修理业",
+        "categoryList": [
+          {
+            "cateCode": "801",
+            "cateName": "汽车、摩托车修理与维护",
+            "categoryList": []
+          },
+          {
+            "cateCode": "802",
+            "cateName": "计算机和办公设备维修",
+            "categoryList": []
+          },
+          {
+            "cateCode": "803",
+            "cateName": "家用电器修理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "809",
+            "cateName": "其他日用产品修理业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "其他服务业",
+        "categoryList": [
+          {
+            "cateCode": "811",
+            "cateName": "清洁服务",
+            "categoryList": []
+          },
+          {
+            "cateCode": "819",
+            "cateName": "其他未列明服务业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "教育",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "教育",
+        "categoryList": [
+          {
+            "cateCode": "821",
+            "cateName": "学前教育",
+            "categoryList": []
+          },
+          {
+            "cateCode": "822",
+            "cateName": "初等教育",
+            "categoryList": []
+          },
+          {
+            "cateCode": "823",
+            "cateName": "中等教育",
+            "categoryList": []
+          },
+          {
+            "cateCode": "824",
+            "cateName": "高等教育",
+            "categoryList": []
+          },
+          {
+            "cateCode": "825",
+            "cateName": "特殊教育",
+            "categoryList": []
+          },
+          {
+            "cateCode": "829",
+            "cateName": "技能培训、教育辅助及其他教育",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "卫生和社会工作",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "卫生",
+        "categoryList": [
+          {
+            "cateCode": "831",
+            "cateName": "医院",
+            "categoryList": []
+          },
+          {
+            "cateCode": "832",
+            "cateName": "社区医疗与卫生院",
+            "categoryList": []
+          },
+          {
+            "cateCode": "833",
+            "cateName": "门诊部（所）",
+            "categoryList": []
+          },
+          {
+            "cateCode": "834",
+            "cateName": "计划生育技术服务活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "835",
+            "cateName": "妇幼保健院（所、站）",
+            "categoryList": []
+          },
+          {
+            "cateCode": "836",
+            "cateName": "专科疾病防治院（所、站）",
+            "categoryList": []
+          },
+          {
+            "cateCode": "837",
+            "cateName": "疾病预防控制中心",
+            "categoryList": []
+          },
+          {
+            "cateCode": "839",
+            "cateName": "其他卫生活动",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "社会工作",
+        "categoryList": [
+          {
+            "cateCode": "841",
+            "cateName": "提供住宿社会工作",
+            "categoryList": []
+          },
+          {
+            "cateCode": "842",
+            "cateName": "不提供住宿社会工作",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "文化、体育和娱乐业",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "新闻和出版业",
+        "categoryList": [
+          {
+            "cateCode": "851",
+            "cateName": "新闻业",
+            "categoryList": []
+          },
+          {
+            "cateCode": "852",
+            "cateName": "出版业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "广播、电视、电影和影视录音制作业",
+        "categoryList": [
+          {
+            "cateCode": "861",
+            "cateName": "广播",
+            "categoryList": []
+          },
+          {
+            "cateCode": "862",
+            "cateName": "电视",
+            "categoryList": []
+          },
+          {
+            "cateCode": "863",
+            "cateName": "电影和影视节目制作",
+            "categoryList": []
+          },
+          {
+            "cateCode": "864",
+            "cateName": "电影和影视节目发行",
+            "categoryList": []
+          },
+          {
+            "cateCode": "865",
+            "cateName": "电影放映",
+            "categoryList": []
+          },
+          {
+            "cateCode": "866",
+            "cateName": "录音制作",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "文化艺术业",
+        "categoryList": [
+          {
+            "cateCode": "871",
+            "cateName": "文艺创作与表演",
+            "categoryList": []
+          },
+          {
+            "cateCode": "872",
+            "cateName": "艺术表演场馆",
+            "categoryList": []
+          },
+          {
+            "cateCode": "873",
+            "cateName": "图书馆与档案馆",
+            "categoryList": []
+          },
+          {
+            "cateCode": "874",
+            "cateName": "文物及非物质文化遗产保护",
+            "categoryList": []
+          },
+          {
+            "cateCode": "875",
+            "cateName": "博物馆",
+            "categoryList": []
+          },
+          {
+            "cateCode": "876",
+            "cateName": "烈士陵园、纪念馆",
+            "categoryList": []
+          },
+          {
+            "cateCode": "877",
+            "cateName": "群众文化活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "879",
+            "cateName": "其他文化艺术业",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "体育",
+        "categoryList": [
+          {
+            "cateCode": "881",
+            "cateName": "体育组织",
+            "categoryList": []
+          },
+          {
+            "cateCode": "882",
+            "cateName": "体育场馆",
+            "categoryList": []
+          },
+          {
+            "cateCode": "883",
+            "cateName": "休闲健身活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "889",
+            "cateName": "其他体育",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "娱乐业",
+        "categoryList": [
+          {
+            "cateCode": "891",
+            "cateName": "室内娱乐活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "892",
+            "cateName": "游乐园",
+            "categoryList": []
+          },
+          {
+            "cateCode": "893",
+            "cateName": "彩票活动",
+            "categoryList": []
+          },
+          {
+            "cateCode": "894",
+            "cateName": "文化、娱乐、体育经纪代理",
+            "categoryList": []
+          },
+          {
+            "cateCode": "899",
+            "cateName": "其他娱乐业",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "公共管理、社会保障和社会组织",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "中国共产党机关",
+        "categoryList": [
+          {
+            "cateCode": "900",
+            "cateName": "中国共产党机关",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "国家机构",
+        "categoryList": [
+          {
+            "cateCode": "911",
+            "cateName": "国家权力机构",
+            "categoryList": []
+          },
+          {
+            "cateCode": "912",
+            "cateName": "国家行政机构",
+            "categoryList": []
+          },
+          {
+            "cateCode": "913",
+            "cateName": "人民法院和人民检察院",
+            "categoryList": []
+          },
+          {
+            "cateCode": "919",
+            "cateName": "其他国家机构",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "人民政协、民主党派",
+        "categoryList": [
+          {
+            "cateCode": "921",
+            "cateName": "人民政协",
+            "categoryList": []
+          },
+          {
+            "cateCode": "922",
+            "cateName": "民主党派",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "社会保障",
+        "categoryList": [
+          {
+            "cateCode": "930",
+            "cateName": "社会保障",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "群众团体、社会团体和其他成员组织",
+        "categoryList": [
+          {
+            "cateCode": "941",
+            "cateName": "群众团体",
+            "categoryList": []
+          },
+          {
+            "cateCode": "942",
+            "cateName": "社会团体",
+            "categoryList": []
+          },
+          {
+            "cateCode": "943",
+            "cateName": "基金会",
+            "categoryList": []
+          },
+          {
+            "cateCode": "944",
+            "cateName": "宗教组织",
+            "categoryList": []
+          }
+        ]
+      },
+      {
+        "cateCode": "",
+        "cateName": "基层群众自治组织",
+        "categoryList": [
+          {
+            "cateCode": "951",
+            "cateName": "社区自治组织",
+            "categoryList": []
+          },
+          {
+            "cateCode": "952",
+            "cateName": "村民自治组织",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cateCode": "",
+    "cateName": "国际组织",
+    "categoryList": [
+      {
+        "cateCode": "",
+        "cateName": "国际组织",
+        "categoryList": [
+          {
+            "cateCode": "960",
+            "cateName": "国际组织",
+            "categoryList": []
+          }
+        ]
+      }
+    ]
+  }
+]

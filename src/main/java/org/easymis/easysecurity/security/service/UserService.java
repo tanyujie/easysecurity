@@ -55,6 +55,7 @@ public interface UserService {
         return MD5Util.md5(new String(chars));
 
     }
+    User findByUserno(String userno);
     User findByPhoneNumber(String phoneNumber);
     User findByEmail(String email);
 }

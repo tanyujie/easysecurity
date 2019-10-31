@@ -92,6 +92,7 @@ public class UserVo implements Serializable {
 
 
     private Boolean isVip;
+    
 
 
 }

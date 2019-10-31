@@ -200,5 +200,14 @@ public interface UserMapper {
         @Result(property = "enabled", column = "enabled")
 })
 	User findByEmail(String email);
+	@Select("<script>" + "SELECT * FROM user WHERE user_no = #{userNo}" + "</script>")
+    @Results({
+        @Result(property = "id", column = "id"),
+        @Result(property = "userNo", column = "user_no"),
+        @Result(property = "phoneNumber", column = "phone_number"),
+        @Result(property = "password", column = "password"),
+        @Result(property = "enabled", column = "enabled")
+})
+	User findByUserno(String userNo);
  
 }

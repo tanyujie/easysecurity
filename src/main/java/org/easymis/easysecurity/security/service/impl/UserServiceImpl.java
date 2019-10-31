@@ -60,4 +60,10 @@ public class UserServiceImpl implements UserService {
 		return mapper.findByEmail(email);
 	}
 
+	@Override
+	public User findByUserno(String userno) {
+		// TODO Auto-generated method stub
+		return mapper.findByUserno(userno);
+	}
+
 }

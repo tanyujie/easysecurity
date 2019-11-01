@@ -1,32 +1,18 @@
 package org.easymis.easysecurity.controller;
 
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-
 import javax.naming.directory.SearchResult;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
-import org.easymis.easysecurity.entitys.mybatis.dto.Company;
 import org.easymis.easysecurity.service.CompanyInvestorService;
 import org.easymis.easysecurity.service.CompanyService;
 import org.easymis.easysecurity.service.CompanyStaffService;
 import org.easymis.easysecurity.service.HumanService;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.util.StringUtils;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.sharepanzer.companydata.core.search.entity.dto.CompanyInvestorOutputDTO;
-import com.sharepanzer.companydata.core.search.entity.po.*;
-import com.sharepanzer.companydata.core.search.service.*;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;

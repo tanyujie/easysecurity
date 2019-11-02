@@ -4,6 +4,7 @@ import javax.naming.directory.SearchResult;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
+import org.easymis.easysecurity.entitys.mybatis.vo.CompanyInvestorOutputVo;
 import org.easymis.easysecurity.service.CompanyInvestorService;
 import org.easymis.easysecurity.service.CompanyService;
 import org.easymis.easysecurity.service.CompanyStaffService;
@@ -44,13 +45,13 @@ public class CompanyInvestorController {
 
 
 
-    @ApiOperation(value = "股东信息")
+    /*     @ApiOperation(value = "股东信息")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "companyId", value = "公司id", dataType = "int", required = true)
     })
-    @ApiResponses(@ApiResponse(code=0,message = "成功",response =CompanyInvestorOutputDTO.class ))
+      @ApiResponses(@ApiResponse(code=0,message = "成功",response =CompanyInvestorOutputVo.class ))
     @GetMapping("/info")
-    public SearchResult allInfo(@NotNull @Min(1) Long companyId) {/*
+    public SearchResult allInfo(@NotNull @Min(1) Long companyId) {
         SearchResult result = SearchResult.buildSuccess();
         List<CompanyInvestor> list = companyInvestorService.list(new LambdaQueryWrapper<CompanyInvestor>().eq(CompanyInvestor::getCompanyId, companyId));
         List<CompanyInvestorOutputDTO> outputList = new ArrayList<>();
@@ -122,5 +123,5 @@ public class CompanyInvestorController {
         return result;
 
 
-    */}
+    }*/
 }

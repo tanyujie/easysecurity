@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.swagger.annotations.Api;
 
 @Api(description = "严重违法")
-@RequestMapping("company/illegal")
+@RequestMapping("companyIllegal")
 @RestController
 @Validated
 public class CompanyIllegalController {

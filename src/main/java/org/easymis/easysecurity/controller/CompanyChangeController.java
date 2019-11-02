@@ -22,9 +22,9 @@ import io.swagger.annotations.ApiOperation;
 
 @Api(description = "变更记录相关接口")
 @Validated
-@RequestMapping("/companyChangeInfo")
+@RequestMapping("/companyChange")
 @RestController
-public class CompanyChangeInfoController {
+public class CompanyChangeController {
 	@Autowired
 	private CompanyChangeInfoService companyChangeInfoService;
 

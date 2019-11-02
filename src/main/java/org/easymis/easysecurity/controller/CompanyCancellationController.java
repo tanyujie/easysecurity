@@ -19,7 +19,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 @Api(description = "企业注销与吊销信息")
-@RequestMapping("company/cancellation")
+@RequestMapping("companyCancellation")
 @RestController
 @Validated
 public class CompanyCancellationController {

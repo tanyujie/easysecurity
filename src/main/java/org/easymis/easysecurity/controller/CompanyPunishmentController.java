@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import io.swagger.annotations.Api;
 
-@Api(description = "行政许可")
+@Api(description = "行政处罚相关接口")
 @Validated
-@RequestMapping("/companyLicense")
+@RequestMapping("/companyPunishment")
 @RestController
-public class CompanyLicenseController {
+public class CompanyPunishmentController {
 
 }

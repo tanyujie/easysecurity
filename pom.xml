@@ -81,9 +81,9 @@
 			<version>1.2.25</version>
 		</dependency>
 		<dependency>
-		      <groupId>com.auth0</groupId>
-		      <artifactId>java-jwt</artifactId>
-		      <version>3.4.0</version>
+			<groupId>com.auth0</groupId>
+			<artifactId>java-jwt</artifactId>
+			<version>3.4.0</version>
 		</dependency>
 		<!-- 热部署 -->
 		<dependency>
@@ -111,6 +111,10 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-staticdocs</artifactId>
 			<version>${springfox-staticdocs.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
 	</dependencies>
 

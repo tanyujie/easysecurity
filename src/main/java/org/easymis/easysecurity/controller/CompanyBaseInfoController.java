@@ -117,7 +117,7 @@ public class CompanyBaseInfoController {
 		if (Objects.isNull(logo) == false) {
 			out.setLogoUrl(logo.getSourceUrl());
 		}
-		return result;
+		return result.success(out);
 	}
 	
 }

@@ -97,6 +97,7 @@
 		</dependency>
 
 		<!-- swagger2 API文档生成 -->
+		<!-- swagger2 API文档生成 -->
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>

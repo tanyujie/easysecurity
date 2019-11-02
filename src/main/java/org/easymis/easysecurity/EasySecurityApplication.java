@@ -11,7 +11,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
@@ -21,7 +20,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableTransactionManagement(order = 2) // 设置事务执行顺序(需要在切换数据源之后，否则只走主库)
 @MapperScan(basePackages = "org.easymis.easysecurity.entitys.mybatis.mapper")
 @ServletComponentScan
-@EnableRedisHttpSession(maxInactiveIntervalInSeconds =  60*60*8 )
+//@EnableRedisHttpSession(maxInactiveIntervalInSeconds =  60*60*8 )
 @EnableSwagger2
 public class EasySecurityApplication {
 	protected static final Logger logger = LoggerFactory.getLogger(EasySecurityApplication.class);

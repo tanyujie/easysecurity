@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Api(description = "高德查询接口")
 @Validated
-@RequestMapping("/Amap")
+@RequestMapping("/amapSearch")
 @RestController
 @Slf4j
 public class AmapSearchController {

@@ -62,6 +62,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		// 首页地址不拦截
 		web.ignoring().antMatchers("/index.html");
 		web.ignoring().antMatchers("/static/**");
+		web.ignoring().antMatchers("/web/socket/**");
+		web.ignoring().antMatchers("/webSocket.html");
 
 	}
     @Bean

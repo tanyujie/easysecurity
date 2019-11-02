@@ -12,6 +12,7 @@ import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 
 import org.springframework.stereotype.Component;
+import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 import com.alibaba.fastjson.JSON;
 
@@ -25,7 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @ServerEndpoint("/web/socket/{sid}")
 @Component
-public class WebSocketServer {
+public class WebSocketServer extends TextWebSocketHandler{
 
     /**
      * 静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。

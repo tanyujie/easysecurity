@@ -21,5 +21,11 @@ public class IndexController {
 		return "/home";
 	}
 
-
+	@ApiOperation(value = "webSocket测试首页", notes = "", produces = MediaType.TEXT_HTML_VALUE)
+	@RequestMapping(value = { "/webSocket.html", "/webSocket" }, method = { RequestMethod.GET, RequestMethod.POST })
+	public String webSocket(Model model) throws Exception {
+		System.out.println("webSocket测试首页!!!");
+		model.addAttribute("userId", "test001");
+		return "/webSocket";
+	}
 }
